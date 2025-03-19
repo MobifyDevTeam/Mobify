@@ -137,6 +137,9 @@ header a {
     width: 35vw;
     margin-left: 16vw;
 }
+#contenedor_sobre_mobify:hover {
+    scale: 1.06;
+}
 #contenedor_sobre_mobify h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
@@ -157,6 +160,10 @@ header a {
 #contenedor_sobre_otro {
     height: 45vh;
     width: 35vw;
+}
+#contenedor_sobre_otro:hover  {
+    scale: 1.06;
+
 }
 #contenedor_sobre_otro h2 {
     font-family: 'Poppins', sans-serif;
@@ -198,6 +205,6 @@ header a {
 }
 @media (max-height:700px) {
     #contenedor_sobre_otro h2 {
-        margin-bottom: 15vh;
+        margin-bottom: 20vh;
     }
 }
