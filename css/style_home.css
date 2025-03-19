@@ -206,9 +206,9 @@ header a {
         transform: rotate(359deg);
     }
 }
-@media (max-height:700px) {
+@media (max-height:777px) {
     #contenedor_sobre_otro h2 {
-        margin-bottom: 15vh;
+        margin-bottom: 4vh;
         font-size: 2.3rem;
     }
 }
