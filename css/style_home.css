@@ -136,6 +136,7 @@ header a {
     height: 45vh;
     width: 35vw;
     margin-left: 16vw;
+    transition: 0.4s;
 }
 #contenedor_sobre_mobify:hover {
     scale: 1.06;
@@ -160,6 +161,8 @@ header a {
 #contenedor_sobre_otro {
     height: 45vh;
     width: 35vw;
+    transition: 0.4s;
+
 }
 #contenedor_sobre_otro:hover  {
     scale: 1.06;
@@ -205,6 +208,11 @@ header a {
 }
 @media (max-height:700px) {
     #contenedor_sobre_otro h2 {
-        margin-bottom: 20vh;
+        margin-bottom: 15vh;
+    }
+}
+@media (max-height:1024px) {
+    #contenedor_sobre_otro h2 {
+        margin-bottom: 30vh;
     }
 }
