@@ -1,0 +1,156 @@
+body{
+    overflow: hidden;
+}
+img{
+    -drag:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+header{
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 19;
+    box-shadow: 0px 1px 0px 0px rgb(221, 221, 221);
+}
+#MobifyLogoHeader{
+    height: 70px;
+    width: 70px;
+    z-index: 19;
+}
+header a {
+    font-size: large;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 19;
+    color: black;
+}
+
+
+#contenedorBody{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    height: 90vh;
+    width: 98vw;
+    background-color: rgba(0, 255, 255, 0);
+    justify-content: space-around;
+    align-items: center;
+    /*opacity: 0;  
+      animation: entrar 2s ease-out forwards; */ 
+}
+
+#Mision{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    transition: 0.6s;
+}
+#Mision i{
+    font-size: 6rem;
+    height: 40px;
+    color: red;
+    animation: entrar2 2s ease-out 0.5s forwards;
+    opacity: 0%;
+}
+#Mision:hover{
+    scale: 1.05;
+    margin-left: 1vh;
+}
+#Mision h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    animation: entrar 2s ease-out forwards;  
+    opacity: 0%;
+    height: 30px;
+}
+#Mision p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: entrar 2s ease-out forwards;  
+    opacity: 0%;
+    font-size: 1.1rem;
+
+}
+#Vision{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    transition: 0.6s;
+}
+#Vision:hover{
+    scale: 1.05;
+}
+#Vision i{
+    font-size: 6rem;
+    height: 40px;
+    color: rgb(0, 102, 255);
+    animation: entrar2 2s ease-out 0.5s forwards;
+    opacity: 0%;
+
+}
+#Vision h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    animation: entrar 2s ease-out forwards;  
+    opacity: 0%;
+    height: 30px;
+}
+#Vision p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: entrar 2s ease-out forwards;  
+    opacity: 0%;
+    font-size: 1.1rem;
+}
+@keyframes entrar {
+    0% {
+      opacity:0;
+      transform: translateY(30px); }
+    100% {
+      opacity: 1;
+      transform: translateY(0);}
+  }
+@keyframes entrar2 {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  @keyframes rotateDec
+  {
+     
+     0%{
+         transform: rotate(0deg);
+     }
+     100%{
+         transform: rotate(359deg);
+     }
+ }
+ #decoracion1{
+    scale: 1.8;
+    display: block; 
+    position:fixed;
+    height: auto;
+    width: 60vw;
+    left: -40%;
+    top: 30%;
+    z-index: -1 !important;
+    opacity: 0.6;
+    animation: rotateDec 20s infinite linear;
+}

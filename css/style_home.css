@@ -1,0 +1,203 @@
+body{
+    overflow-x: hidden;
+}
+img{
+    -drag:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+header{
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 19;
+    box-shadow: 0px 1px 0px 0px rgb(221, 221, 221);
+}
+#MobifyLogoHeader{
+    height: 70px;
+    width: 70px;
+    z-index: 19;
+}
+header a {
+    font-size: large;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 19;
+    color: black;
+}
+
+
+#contenedorBody{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    z-index: 18;
+    height: 75vh;
+    width: 98vw;
+    background-color: rgba(0, 255, 255, 0);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;  
+      animation: entrar 2s ease-out forwards;  
+}
+
+
+@keyframes entrar {
+    0% {
+      opacity:0;
+      transform: translateY(30px); }
+    100% {
+      opacity: 1;
+      transform: translateY(0);}
+  }
+#MobifyLogoCenter{
+    width: auto;
+    height: 60vh;
+    opacity: 0;
+    animation: entrar2 2s ease-out 0.5s forwards, hop 2s ease-in-out 4s infinite;
+}
+
+@keyframes entrar2 {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  
+  @keyframes hop {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+#contenedorBienvenida{
+    align-content: center;
+    width: 30vw;
+    height: 60vh;
+}
+#contenedorBienvenida h2{
+    transform: translateY(70px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contenedorBienvenida h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+
+
+
+/*Parte de Ronald*/
+#contenedorBody2{
+    display: flex;
+    flex-direction: row;
+    z-index: 18;
+    height: 50vh;
+    width: 98vw;
+    justify-content: space-around;
+    align-items: center;
+    /*opacity: 0;  
+      animation: entrar 2s ease-out forwards; */  
+}
+
+
+/*Contenedor numero 2*/ 
+#contenedor_titulo {
+    height: 10vh;
+    width: 97vw;
+    align-content: center;
+}
+
+#titulo_mobify {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#contenedor_sobre_mobify {
+    height: 45vh;
+    width: 35vw;
+    margin-left: 16vw;
+}
+#contenedor_sobre_mobify h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    height: 30px;
+    animation: entrar 3s ease-out forwards;
+
+}
+
+#contenedor_sobre_mobify p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0%;
+    animation: entrar 2s ease-out forwards;
+    padding-top: 6%; 
+    font-size: 1.1rem;
+}
+
+
+#contenedor_sobre_otro {
+    height: 45vh;
+    width: 35vw;
+}
+#contenedor_sobre_otro h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    height: 30px;
+    animation: entrar 3s ease-out forwards;
+}
+
+#contenedor_sobre_otro p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0%;
+    animation: entrar 2s ease-out forwards;
+    font-size: 1.1rem;
+    padding-top: 6%;
+}
+
+
+#decoracion1{
+    scale: 1.8;
+    display: block; 
+    position:fixed;
+    height: auto;
+    width: 60vw;
+    left: -40%;
+    top: 30%;
+    z-index: -1 !important;
+    opacity: 0.6;
+    animation: rotateDec 20s infinite linear;
+}
+@keyframes rotateDec
+ {
+    
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+@media (max-height:700px) {
+    #contenedor_sobre_otro h2 {
+        margin-bottom: 15vh;
+    }
+}
