@@ -36,6 +36,8 @@ header a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 19;
     color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 
