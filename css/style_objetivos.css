@@ -1,5 +1,7 @@
 body{
     overflow: hidden;
+    cursor: default;
+
 }
 img{
     -drag:none;

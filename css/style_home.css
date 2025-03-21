@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    cursor: pointer;
+    cursor: default;
 }
 img{
     -drag:none;
