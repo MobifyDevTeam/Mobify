@@ -242,7 +242,12 @@ header a {
         width: 70vw;
         justify-content: start;
         align-items: start;
-        background-color: aqua;
+    }
+    #MobifyLogoCenter{
+        height: auto;
+        width: 60vh;
+        opacity: 0;
+        animation: entrar2 2s ease-out 0.5s forwards, hop 2s ease-in-out 4s infinite;
     }
     #contenedorBody2{
         display: flex;
