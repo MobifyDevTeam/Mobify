@@ -252,5 +252,9 @@ header a {
         justify-content: space-around;
         align-items: center;
     }
-    
+    #contenedorBienvenida{
+        align-content: start;
+        width: 30vw;
+        height: 60vh;
+    }
 }
