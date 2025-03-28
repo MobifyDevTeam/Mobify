@@ -266,14 +266,14 @@ header a {
     }
     #contenedor_sobre_mobify {
         height: auto;
-        width: 80vw;
+        width: 70vw;
         margin-left: 2vw;
         transition: 0.4s;
         align-items: center;
     }
     #contenedor_sobre_otro {
         height: auto;
-        width: 80vw;
+        width: 70vw;
         transition: 0.4s;
         align-items: center;
 

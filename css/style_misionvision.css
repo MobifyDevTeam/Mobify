@@ -160,6 +160,9 @@ header a {
     animation: rotateDec 20s infinite linear;
 }
 @media (max-width:1180px) {
+    body{
+        overflow-y: visible;
+    }
     header{
         margin: 0%;
         padding: 0%;
@@ -174,7 +177,7 @@ header a {
         align-items:start;
     }
     #contenedorBody{
-        margin-top: 20vh;
+        margin-top: 40vh;
         display: flex;
         flex-direction: column;
         height: auto;
