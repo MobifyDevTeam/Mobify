@@ -263,4 +263,15 @@ header a {
         width: auto;
         height: auto;
     }
+    #contenedor_sobre_mobify {
+        height: auto;
+        width: auto;
+        margin-left: 2vw;
+        transition: 0.4s;
+    }
+    #contenedor_sobre_otro {
+        height: auto;
+        width: auto;
+        transition: 0.4s;
+    }
 }
