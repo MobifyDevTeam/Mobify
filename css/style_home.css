@@ -214,7 +214,7 @@ header a {
         transform: rotate(359deg);
     }
 }
-@media (max-height:777px) {
+@media (max-width:777) {
     #contenedor_sobre_otro h2 {
         height: auto;
     }
@@ -241,7 +241,8 @@ header a {
         height: auto;
         width: 98vw;
         justify-content: start;
-        align-items: center;
+        align-items: start;
+        background-color: aqua;
     }
     #contenedorBody2{
         display: flex;
