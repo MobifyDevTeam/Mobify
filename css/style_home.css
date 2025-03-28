@@ -239,7 +239,7 @@ header a {
         display: flex;
         flex-direction: column;
         height: auto;
-        width: 98vw;
+        width: 70vw;
         justify-content: start;
         align-items: start;
         background-color: aqua;
@@ -255,7 +255,7 @@ header a {
     }
     #contenedorBienvenida{
         align-content: start;
-        width: 30vw;
-        height: 60vh;
+        width: auto;
+        height: auto;
     }
 }
