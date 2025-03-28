@@ -178,7 +178,7 @@ header a {
         align-items:start;
     }
     #contenedorBody{
-        margin-top: 40vh;
+        margin-top: 25vh;
         display: flex;
         flex-direction: column;
         height: auto;
