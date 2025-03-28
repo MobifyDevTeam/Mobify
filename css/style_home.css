@@ -214,7 +214,7 @@ header a {
         transform: rotate(359deg);
     }
 }
-@media (max-height:1180) {
+@media (max-width:1180px) {
     #contenedor_sobre_otro h2 {
         height: auto;
     }

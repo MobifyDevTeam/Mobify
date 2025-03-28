@@ -159,7 +159,7 @@ header a {
     opacity: 0.6;
     animation: rotateDec 20s infinite linear;
 }
-@media (max-height:1180) {
+@media (max-width:1180px) {
     header{
         margin: 0%;
         padding: 0%;
