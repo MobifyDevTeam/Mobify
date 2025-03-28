@@ -17,10 +17,11 @@ header{
     position: fixed;
     margin: 0%;
     padding: 0%;
+    transform: translateX(-6px);
     top: 0%;
     background-color: rgb(255, 255, 255);
     height: 10%;
-    width: 100%;
+    width: 110%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -265,13 +266,16 @@ header a {
     }
     #contenedor_sobre_mobify {
         height: auto;
-        width: auto;
+        width: 80vw;
         margin-left: 2vw;
         transition: 0.4s;
+        align-items: center;
     }
     #contenedor_sobre_otro {
         height: auto;
-        width: auto;
+        width: 80vw;
         transition: 0.4s;
+        align-items: center;
+
     }
 }
