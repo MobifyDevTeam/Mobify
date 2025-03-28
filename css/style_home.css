@@ -235,11 +235,12 @@ header a {
         align-items:start;
     }
     #contenedorBody{
+        margin-top: 20vh;
         display: flex;
         flex-direction: column;
         height: auto;
         width: 98vw;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
     }
     #contenedorBody2{
