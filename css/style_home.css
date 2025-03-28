@@ -216,6 +216,9 @@ header a {
     }
 }
 @media (max-width:1180px) {
+    body{
+        overflow-x: hidden;
+    }
     #contenedor_sobre_otro h2 {
         height: auto;
     }
@@ -246,7 +249,7 @@ header a {
         align-items: start;
     }
     #MobifyLogoCenter{
-        width: 50vh;
+        width: 20vh;
         height: auto;
         opacity: 0;
         animation: entrar2 2s ease-out 0.5s forwards, hop 2s ease-in-out 4s infinite;
