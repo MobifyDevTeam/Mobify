@@ -246,8 +246,7 @@ header a {
         align-items: start;
     }
     #MobifyLogoCenter{
-        height: 20vh;
-        width: 50vw;
+        width: 70vw;
         opacity: 0;
         animation: entrar2 2s ease-out 0.5s forwards, hop 2s ease-in-out 4s infinite;
     }
@@ -277,6 +276,6 @@ header a {
         width: 70vw;
         transition: 0.4s;
         align-items: center;
-
+        margin-bottom: 10vh;
     }
 }
