@@ -223,6 +223,7 @@ header a {
         height: auto;
     }
     header{
+        position: fixed;
         margin: 0%;
         padding: 0%;
         padding-left: 15px;
@@ -236,7 +237,7 @@ header a {
         align-items:start;
     }
     #contenedorBody{
-        margin-top: 20vh;
+        margin-top: 40vh;
         display: flex;
         flex-direction: column;
         height: auto;

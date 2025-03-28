@@ -164,6 +164,7 @@ header a {
         overflow-y: visible;
     }
     header{
+        position: fixed;
         margin: 0%;
         padding: 0%;
         padding-left: 15px;
