@@ -248,6 +248,15 @@ header a {
         justify-content: center;
         align-items: start;
     }
+    h2{
+        margin-bottom: 0%;
+    }
+    
+    #contenedorBienvenida h1{
+        margin: 0%;
+
+    }
+    
     #MobifyLogoCenter{
         width: 20vh;
         height: auto;
