@@ -280,9 +280,11 @@ header a {
         align-items: center;
     }
     #contenedorBienvenida{
-        align-content: start;
+        align-content: center;
         width: auto;
         height: auto;
+        align-self: center;
+
     }
     #contenedor_sobre_mobify {
         height: auto;
@@ -311,8 +313,5 @@ header a {
         z-index: -1 !important;
         opacity: 0.6;
         animation: rotateDec 20s infinite linear;
-    }
-    #contenedorBienvenida{
-        justify-self: center;
     }
 }
