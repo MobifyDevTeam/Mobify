@@ -191,12 +191,12 @@ header a {
     }
     
     header{
+        margin-top: 20vh;
         position: fixed;
         margin: 0%;
         padding: 0%;
         padding-left: 15px;
         background-color: rgb(255, 255, 255);
-        height: auto;
         gap: 10px;
         width: 100vw;
         display: flex;
@@ -243,6 +243,14 @@ header a {
         flex-direction: column;
         width: 90vw;
         justify-items: center;
+        height: auto;
+    }
+    #Obj1{
+        width: 70vw;
+        height: auto;
+    }
+    #Obj2{
+        width: 70vw;
         height: auto;
     }
 }
