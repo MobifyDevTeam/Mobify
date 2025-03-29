@@ -312,4 +312,7 @@ header a {
         opacity: 0.6;
         animation: rotateDec 20s infinite linear;
     }
+    #contenedorBienvenida{
+        justify-self: center;
+    }
 }
