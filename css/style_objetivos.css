@@ -205,7 +205,6 @@ header a {
         align-items:start;
     }
     #contenedorBody{
-        margin-top: 20vh;
         display: flex;
         flex-direction: column;
         height: auto;
