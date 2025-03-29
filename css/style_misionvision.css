@@ -178,13 +178,14 @@ header a {
         align-items:start;
     }
     #contenedorBody{
-        margin-top: 20vh;
+        margin-top: 23vh;
         display: flex;
         flex-direction: column;
         height: auto;
         width: 98vw;
         justify-content: center;
         align-items: center;
+        gap: 3vh;
     }
     #Mision {
         display: flex;

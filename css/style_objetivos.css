@@ -205,7 +205,7 @@ header a {
         align-items:start;
     }
     #contenedorBody{
-        margin-top: 20vh;
+        margin-top: 23vh;
         display: flex;
         flex-direction: column;
         height: auto;
@@ -247,6 +247,7 @@ header a {
         justify-content: center;
         align-items: center;
         height: auto;
+        gap: 3vh;
     }
     #Obj1{
         width: 70vw;
