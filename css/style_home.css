@@ -199,7 +199,9 @@ header a {
 
 }
 
-
+#contenedorNada{
+    height: 40px;
+}
 #decoracion1{
     scale: 1.8;
     display: block; 
