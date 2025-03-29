@@ -245,7 +245,7 @@ header a {
         flex-direction: column;
         height: auto;
         width: 70vw;
-        justify-content: start;
+        justify-content: center;
         align-items: start;
     }
     #MobifyLogoCenter{
