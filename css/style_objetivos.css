@@ -258,3 +258,7 @@ header a {
         height: auto;
     }
 }
+
+#contenedorNada{
+    height: 40px;
+}
