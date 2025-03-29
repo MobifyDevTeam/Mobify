@@ -238,7 +238,8 @@ header a {
     }
     #baseline{
         flex-direction: column;
-        width: 70vw;
+        width: 90vw;
+        justify-items: center;
         height: auto;
     }
 }
