@@ -258,6 +258,7 @@ header a {
         height: auto;
         opacity: 0;
         animation: entrar2 2s ease-out 0.5s forwards, hop 2s ease-in-out 4s infinite;
+        align-self: center;
     }
     #contenedorBody2{
         display: flex;
