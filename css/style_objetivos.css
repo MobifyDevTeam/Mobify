@@ -243,6 +243,8 @@ header a {
         flex-direction: column;
         width: 90vw;
         justify-items: center;
+        justify-content: center;
+        align-items: center;
         height: auto;
     }
     #Obj1{
