@@ -165,6 +165,8 @@ header a {
     padding-top: 6%; 
     font-size: 1.1rem;
     height: fit-content;
+    margin-top: 1%;
+
 }
 
 
@@ -192,6 +194,7 @@ header a {
     font-size: 1.1rem;
     padding-top: 6%;
     height: fit-content;
+    margin-top: 1%;
 
 }
 
