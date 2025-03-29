@@ -299,14 +299,14 @@ header a {
         margin-bottom: 10vh;
     }
     
-    #decoracion1{
+    #decoracion1 {
         scale: 1.8;
-        display: block; 
-        position:fixed;
+        display: block;
+        position: fixed;
         height: auto;
         width: 60vw;
-        left: -40%;
-        bottom: -100px;
+        left: 0;
+        bottom: 0;
         z-index: -1 !important;
         opacity: 0.6;
         animation: rotateDec 20s infinite linear;
