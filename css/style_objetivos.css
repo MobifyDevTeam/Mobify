@@ -238,7 +238,7 @@ header a {
     }
     #baseline{
         flex-direction: column;
-        width: auto;
-        height: 70vw;
+        width: 70vw;
+        height: auto;
     }
 }
