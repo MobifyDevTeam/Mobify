@@ -186,6 +186,10 @@ header a {
     body{
         overflow-y: visible;
     }
+    h2{
+        margin-bottom: 0%;
+    }
+    
     header{
         position: fixed;
         margin: 0%;
