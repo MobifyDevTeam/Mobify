@@ -306,7 +306,7 @@ header a {
         height: auto;
         width: 60vw;
         left: -40%;
-        top: none;
+        top:unset;
         bottom: 0;
         z-index: -1 !important;
         opacity: 0.6;
