@@ -284,7 +284,7 @@ header a {
         width: auto;
         height: auto;
         align-self: center;
-
+        margin-left: 10vw;
     }
     #contenedor_sobre_mobify {
         height: auto;
