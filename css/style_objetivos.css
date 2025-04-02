@@ -72,9 +72,6 @@ header a {
     opacity: 0%;
     animation: entrar 2s ease-out forwards;  
     font-size: 1.1rem;
-
-
-
 }
 #Obj2 h2{
     font-family: 'Poppins', sans-serif;
@@ -213,20 +210,6 @@ header a {
         justify-content: center;
         align-items: center;
     }
-    #Mision {
-        display: flex;
-        flex-direction: column;
-        width: 70vw;
-        height: auto;
-        transition: 0.6s;
-    }
-    #Vision {
-        display: flex;
-        flex-direction: column;
-        width: 70vw;
-        height: auto;
-        transition: 0.6s;
-    }
     #decoracion1 {
         scale: 1.8;
         display: block;
@@ -256,6 +239,9 @@ header a {
     #Obj2{
         width: 70vw;
         height: auto;
+    }
+    #Obj2 ul {
+        gap: 15px;
     }
 }
 
