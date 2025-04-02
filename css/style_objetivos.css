@@ -240,8 +240,8 @@ header a {
         width: 70vw;
         height: auto;
     }
-    #Obj2 ul {
-        gap: 15px;
+    li {
+        padding-bottom: 10px; 
     }
 }
 
